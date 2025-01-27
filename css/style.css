@@ -2,8 +2,11 @@
 
 main {
   display: flex;
-  gap: 32px;
-  padding: 32px;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 20px;
+  padding: 30px;
+  max-width: 1200px;
 }
 
 footer {
@@ -22,7 +25,7 @@ input[type="number"] {
 }
 
 form {
-  background-color: antiquewhite;
+  background-color: rgb(255, 255, 255);
   padding: 32px;
 }
 
@@ -35,7 +38,7 @@ form {
 button {
   border: none;
   padding: 8px;
-  color: antiquewhite;
+  color: rgb(255, 255, 255);
 }
 
 .Bg-Hitam {
@@ -49,11 +52,12 @@ button {
 .result-section {
   padding: 16px;
   text-align: center;
-  background-color: antiquewhite;
+  background-color: rgb(255, 255, 255);
 }
 
-#hasil-bmi {
-  font-size: xxx-large;
+.hasil-bmi {
+  font-size: xx-large;
+  font-style: bold;
   font-family: math;
 }
 
